@@ -18,6 +18,16 @@ Un șofer are câteva secunde să accepte sau să refuze o cursă. Prețul se ve
 
 ![Exemple de verdict: Excelent, Bun, Slab](docs/images/verdicte.png)
 
+### În aplicație
+
+Cardul de verdict, în modul demo al aplicației (ofertă inventată, zi și noapte):
+
+| Zi | Noapte |
+|---|---|
+| ![Cardul TrueRide în aplicație, tema de zi](docs/images/app-card-zi.png) | ![Cardul TrueRide în aplicație, tema de noapte](docs/images/app-card-noapte.png) |
+
+### Pe site
+
 | Calculatorul de pe site | Pe telefon |
 |---|---|
 | ![Calculator completat cu o ofertă-exemplu](docs/images/calculator.png) | ![Pagina TrueRide pe mobil](docs/images/mobil.png) |
