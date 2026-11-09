@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "aplicatie": "ee.mtakso.driver",
+  "moment": "2026-10-05T16:03:38",
+  "sursa": "noduri_fara_card",
+  "limba": "ro-RO",
+  "ecran": { "latime": 1080, "inaltime": 2392 },
+  "linii": [
+    { "text": "104,73 lei", "stanga": 407, "sus": 162, "dreapta": 673, "jos": 236 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 24 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 49 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 49 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 49 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 49 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 49 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 65 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 133 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "aplicatie": "ee.mtakso.driver",
+  "moment": "2026-10-05T16:05:11",
+  "sursa": "noduri_fara_card",
+  "limba": "ro-RO",
+  "ecran": { "latime": 1080, "inaltime": 2392 },
+  "linii": [
+    { "text": "10,00 lei (▢, ▢ ▢)", "stanga": 90, "sus": 1442, "dreapta": 990, "jos": 1556 },
+    { "text": "2 min • 1 km", "stanga": 152, "sus": 1717, "dreapta": 962, "jos": 1799 },
+    { "text": "4 min • 1.7 km", "stanga": 152, "sus": 1942, "dreapta": 962, "jos": 2024 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 65 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 65 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 74 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 132 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 133 }
+  ]
+}

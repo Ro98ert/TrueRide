@@ -1,0 +1,10 @@
+build/
+.gradle/
+.kotlin/
+.idea/
+local.properties
+.env*
+.mcp.json
+.claude/
+CLAUDE.md
+*.iml

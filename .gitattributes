@@ -1,0 +1,9 @@
+# Git for Windows sets core.autocrlf=true at system level: without the rules
+# below, bash scripts would be checked out with CRLF and fail ("$'\r': command not found").
+* text=auto eol=lf
+*.bat text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jar binary
+*.docx binary

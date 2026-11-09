@@ -1,0 +1,11 @@
+{
+  "price": "17.04",
+  "currency": "RON",
+  "priceBasis": "NET",
+  "pickupMinutes": "5",
+  "tripMinutes": "14",
+  "pickupDistance": "1.9",
+  "tripDistance": "6.9",
+  "distanceUnitDetected": "KM",
+  "surgeMultiplier": null
+}

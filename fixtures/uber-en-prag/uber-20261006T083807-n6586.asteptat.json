@@ -1,0 +1,11 @@
+{
+  "price": null,
+  "currency": null,
+  "priceBasis": "UNKNOWN",
+  "pickupMinutes": "8",
+  "tripMinutes": "10",
+  "pickupDistance": null,
+  "tripDistance": "3.0",
+  "distanceUnitDetected": "KM",
+  "surgeMultiplier": null
+}

@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "aplicatie": "com.ubercab.driver",
+  "moment": "2026-10-05T19:16:53",
+  "sursa": "ocr_fara_card",
+  "limba": "en-RO",
+  "ecran": { "latime": 1080, "inaltime": 2400 },
+  "linii": [
+    { "text": "RON23.03", "stanga": 123, "sus": 1340, "dreapta": 602, "jos": 1436 },
+    { "text": "10 mins (4.0 km) ▢", "stanga": 177, "sus": 1632, "dreapta": 635, "jos": 1682 },
+    { "text": "17 mins (6.4 km) ▢", "stanga": 163, "sus": 1835, "dreapta": 595, "jos": 1879 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 18 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 19 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 28 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 29 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 31 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 36 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 36 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 37 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 37 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 41 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 41 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 41 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 45 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 45 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 48 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 52 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 55 }
+  ]
+}

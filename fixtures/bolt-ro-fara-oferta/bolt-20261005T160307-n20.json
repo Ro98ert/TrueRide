@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "aplicatie": "ee.mtakso.driver",
+  "moment": "2026-10-05T16:03:07",
+  "sursa": "noduri_fara_card",
+  "limba": "ro-RO",
+  "ecran": { "latime": 1080, "inaltime": 2392 },
+  "linii": [
+    { "text": "▢ 400 lei", "stanga": 214, "sus": 1501, "dreapta": 911, "jos": 1566 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 49 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 49 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 49 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 49 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 57 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 57 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 57 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 57 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 57 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 57 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 57 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 59 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 65 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 65 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 65 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 65 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 65 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 82 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 133 },
+    { "text": "▢", "stanga": 0, "sus": 0, "dreapta": 0, "jos": 169 }
+  ]
+}
