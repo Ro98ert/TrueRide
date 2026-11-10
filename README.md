@@ -2,64 +2,65 @@
 
 [![CI](https://github.com/Ro98ert/TrueRide/actions/workflows/ci.yml/badge.svg)](https://github.com/Ro98ert/TrueRide/actions/workflows/ci.yml)
 
-**Asistent Android pentru șoferii de ride-sharing din România: îți arată, înainte să accepți, cât plătește de fapt o cursă.**
+**An Android assistant for ride-hailing drivers in Romania: before you accept a ride, it shows what the ride really pays.**
 
-![TrueRide: lei/km și lei/oră pentru fiecare ofertă](docs/images/hero.png)
+![TrueRide: lei/km and lei/hour for every offer](docs/images/hero.png)
 
-## Problema
+## The problem
 
-Un șofer are câteva secunde să accepte sau să refuze o cursă. Prețul se vede, dar cât câștigă de fapt pe kilometru și pe oră, după drumul gol până la client și costul mașinii, nu se vede. Decizia se ia din instinct, iar cursele proaste se acceptă des.
+A driver has a few seconds to accept or decline a ride. The price is on screen, but what the ride really earns per kilometre and per hour, after the empty drive to the pickup and the cost of the car, is not. The decision is made on instinct, and bad rides get accepted often.
 
-## Cum funcționează
+## How it works
 
-1. **Citește.** Când apare o ofertă, TrueRide citește cifrele de pe ecran: preț, kilometri, minute. Doar cifrele, fără nume sau adrese.
-2. **Calculează.** Lei pe kilometru, lei pe oră și profitul estimat, după costul mașinii tale.
-3. **Arată.** Un card peste ofertă, în culoarea verdictului: Excelent, Bun sau Slab. Tu decizi.
+1. **Reads.** When an offer appears, TrueRide reads the numbers on screen: price, kilometres, minutes. Numbers only, no names or addresses.
+2. **Calculates.** Lei per kilometre, lei per hour and the estimated profit after your car's cost.
+3. **Shows.** A card over the offer, in the colour of the verdict: Excellent, Good or Poor. You decide.
 
-![Exemple de verdict: Excelent, Bun, Slab](docs/images/verdicte.png)
+The app and the site are in Romanian, so the screenshots below are too (Excelent = Excellent, Bun = Good, Slab = Poor).
 
-### În aplicație
+![Verdict examples: Excellent, Good, Poor](docs/images/verdicte.png)
 
-Cardul de verdict, în modul demo al aplicației (ofertă inventată, zi și noapte):
+### In the app
 
-| Zi | Noapte |
+The verdict card in the app's demo mode (made-up offer, day and night themes):
+
+| Day | Night |
 |---|---|
-| ![Cardul TrueRide în aplicație, tema de zi](docs/images/app-card-zi.png) | ![Cardul TrueRide în aplicație, tema de noapte](docs/images/app-card-noapte.png) |
+| ![TrueRide card in the app, day theme](docs/images/app-card-zi.png) | ![TrueRide card in the app, night theme](docs/images/app-card-noapte.png) |
 
-### Pe site
+### On the website
 
-| Calculatorul de pe site | Pe telefon |
+| Website calculator | On a phone |
 |---|---|
-| ![Calculator completat cu o ofertă-exemplu](docs/images/calculator.png) | ![Pagina TrueRide pe mobil](docs/images/mobil.png) |
+| ![Calculator filled in with a sample offer](docs/images/calculator.png) | ![TrueRide page on mobile](docs/images/mobil.png) |
 
-*Toate cifrele din imagini sunt oferte-exemplu, nu curse reale.*
+*All numbers in the images are sample offers, not real rides.*
 
-## Promisiuni
+## Promises
 
-- **Doar citește.** TrueRide nu acceptă și nu refuză nicio cursă în locul tău.
-- **Imaginea ecranului nu pleacă de pe telefon.** Se folosesc doar cifrele și unitățile; nume și adrese nu se păstrează.
-- **Formule publice.** Calculul de bani e în acest repository, cu teste.
+- **Read-only.** TrueRide never accepts or declines a ride for you.
+- **The screen image never leaves the phone.** Only numbers and units are used; names and addresses are not kept.
+- **Public formulas.** The money math is in this repository, with tests.
 
-## Stadiu
+## Status
 
-- Aplicația Android rulează și e în testare cu șoferi. **Google Play: în curând.**
-- Site-ul de prezentare e în lucru și se publică după finalizare.
-- Nucleul de calcul și citire (acest repository) are 653 de teste automate, rulate la fiecare modificare.
+- The Android app runs and is being tested with drivers. **Google Play: coming soon.**
+- The website is in progress and will be published when it is finished.
+- The calculation and parsing core (this repository) has 653 automated tests, run on every change.
 
-## Autor
+## About me
 
-Sunt [Robert Amartisoaei](https://github.com/Ro98ert) și am construit TrueRide cu ajutorul AI ([metoda](AI_WORKFLOW.md)).
+I'm [Robert Amartisoaei](https://github.com/Ro98ert), and I built TrueRide with the help of AI ([the method](AI_WORKFLOW.md)).
 
-Nu este afiliat cu Uber sau Bolt. Uber și Bolt sunt mărci ale proprietarilor lor.
+Not affiliated with Uber or Bolt. Uber and Bolt are trademarks of their respective owners.
 
 ---
 
-## Pentru dezvoltatori
+## For developers
 
 TrueRide is read-only: it never accepts or declines rides.
 
 ### What this repository contains
-
 
 Only the pure Kotlin/JVM core of the project. The Android app is not included. The four modules below have no Android dependency, so their tests run on a laptop in seconds.
 
