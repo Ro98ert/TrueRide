@@ -1,6 +1,6 @@
 # How TrueRide was built with AI
 
-TrueRide was built with Claude Code (Anthropic) by Robert Amartisoaei. Robert is new to programming. His background is hardware testing in telecom. He wrote the product rules and the checks. Claude Code wrote most of the code under those rules.
+I built TrueRide with Claude Code (Anthropic). I'm new to programming; my background is hardware testing in telecom. I wrote the product rules and the checks. Claude Code wrote most of the code under those rules.
 
 This file describes the method. It is a record of how the work is organized, not a claim about code quality. The tests in this repository are the evidence.
 
@@ -18,7 +18,7 @@ This file describes the method. It is a record of how the work is organized, not
 
 ## Product invariants
 
-These cannot be negotiated. If a task seems to need one of them broken, work stops and the owner is asked.
+These cannot be negotiated. If a task seems to need one of them broken, work stops and I am asked.
 
 1. The app is read-only. It never accepts or declines rides and never presses buttons in another app.
 2. Release builds write no screenshot and no raw OCR text to logs, crash reports or telemetry. The one documented exception is a private test build, which sends offer OCR text to the crash reporter so real parser failures can become fixtures.
@@ -37,7 +37,7 @@ These cannot be negotiated. If a task seems to need one of them broken, work sto
 ## Plan before execution
 
 - For any task with more than two steps, Claude Code writes a short plan first: step, then how that step is verified.
-- The plan has at most 10 steps. Work starts after the owner confirms it.
+- The plan has at most 10 steps. Work starts after I confirm it.
 - After each step, one line reports what was finished and which files changed.
 - A vague task is turned into a checkable goal. "Fix the bug" becomes "write a test that reproduces it, then make it pass".
 
@@ -60,10 +60,12 @@ These cannot be negotiated. If a task seems to need one of them broken, work sto
 
 - Nothing is committed straight after writing. A separate review pass reads the diff first.
 - The reviewer is a separate agent session that did not write the code. It checks the diff against the invariants and the plan.
-- The owner is shown what will be committed before each commit.
-- Pushing to a remote needs an explicit instruction from the owner each time.
+- Before each commit, I see what will be committed.
+- Pushing to a remote needs my explicit instruction each time.
 
 ## What the AI does not decide
+
+These stay with me:
 
 - Product limits and invariants.
 - Anything that touches data collection or store policy.
@@ -71,4 +73,4 @@ These cannot be negotiated. If a task seems to need one of them broken, work sto
 
 ## Why this structure
 
-A person who is new to code cannot judge every line. Written rules, small steps, tests with hand-written expected values and independent review give checks that do not depend on that judgment.
+I'm new to code, so I cannot judge every line. Written rules, small steps, tests with hand-written expected values and independent review give checks that do not depend on that judgment.
