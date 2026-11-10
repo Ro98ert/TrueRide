@@ -46,9 +46,9 @@ Cardul de verdict, în modul demo al aplicației (ofertă inventată, zi și noa
 - Site-ul de prezentare e în lucru și se publică după finalizare.
 - Nucleul de calcul și citire (acest repository) are 653 de teste automate, rulate la fiecare modificare.
 
-## Cine l-a construit
+## Autor
 
-TrueRide e construit de [Robert Amartisoaei](https://github.com/Ro98ert), cu agenți AI (Claude Code) într-un proces disciplinat: planificare, teste, revizii. Metoda e descrisă în [AI_WORKFLOW.md](AI_WORKFLOW.md).
+TrueRide e construit de [Robert Amartisoaei](https://github.com/Ro98ert), cu ajutorul Claude Code ([metoda](AI_WORKFLOW.md)).
 
 Nu este afiliat cu Uber sau Bolt. Uber și Bolt sunt mărci ale proprietarilor lor.
 
@@ -101,10 +101,6 @@ The last full run had 653 tests, 11 of them skipped by design (`CazuriGresiteDez
 ### Language
 
 Identifiers and comments are in Romanian. Comments cite decision IDs such as `D-033`. They refer to a private decision log that is not published.
-
-### Built with AI assistance
-
-TrueRide was built with Claude Code. See [AI_WORKFLOW.md](AI_WORKFLOW.md) for the method.
 
 ### License
 
