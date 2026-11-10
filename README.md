@@ -48,7 +48,7 @@ Cardul de verdict, în modul demo al aplicației (ofertă inventată, zi și noa
 
 ## Autor
 
-TrueRide e construit de [Robert Amartisoaei](https://github.com/Ro98ert), cu ajutorul Claude Code ([metoda](AI_WORKFLOW.md)).
+TrueRide e construit de [Robert Amartisoaei](https://github.com/Ro98ert), cu ajutorul AI ([metoda](AI_WORKFLOW.md)).
 
 Nu este afiliat cu Uber sau Bolt. Uber și Bolt sunt mărci ale proprietarilor lor.
 
