@@ -1,6 +1,6 @@
 # How TrueRide was built with AI
 
-I built TrueRide with Claude Code (Anthropic). I'm new to programming; my background is hardware testing in telecom. I wrote the product rules and the checks. Claude Code wrote most of the code under those rules.
+I built TrueRide with Claude Code (Anthropic). My background is hardware testing in telecom; I've moved into software development, which I do as a side job and hobby. I wrote the product rules and the checks. Claude Code wrote most of the code under those rules.
 
 This file describes the method. It is a record of how the work is organized, not a claim about code quality. The tests in this repository are the evidence.
 
@@ -73,4 +73,4 @@ These stay with me:
 
 ## Why this structure
 
-I'm new to code, so I cannot judge every line. Written rules, small steps, tests with hand-written expected values and independent review give checks that do not depend on that judgment.
+I don't review every line by hand. Written rules, small steps, tests with hand-written expected values and independent review give checks that do not depend on reading every line.
